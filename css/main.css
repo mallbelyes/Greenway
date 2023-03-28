@@ -1,0 +1,515 @@
+@media (max-width: 1100px) {
+  .video_player_1 {
+    width: 700px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 930px) {
+  .video_player_1 {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 670px) {
+  .video_player_1 {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .video_player_2 {
+    width: 700px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 930px) {
+  .video_player_2 {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 670px) {
+  .video_player_2 {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 720px) {
+  .mini_video_player {
+    width: 400px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .video_player_1 {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .video_player_1 {
+    width: 200px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .video_player_2 {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .video_player_2 {
+    width: 200px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mini_video_player {
+    width: 250px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 400px) {
+  .mini_video_player {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .travel_video {
+    width: 480px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .travel_video {
+    width: 430px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .travel_video {
+    width: 400px;
+  }
+}
+
+@media (max-width: 970px) {
+  .travel_video {
+    width: 360px;
+    height: 190px;
+  }
+}
+
+@media (max-width: 920px) {
+  .travel_video {
+    width: 320px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 770px) {
+  .travel_video {
+    width: 250px;
+  }
+}
+
+@media (max-width: 610px) {
+  .travel_video {
+    width: 180px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .product_img {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 920px) {
+  .product_img {
+    width: 150px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 785px) {
+  .product_img {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.Big_title {
+  color: rgb(39, 39, 39);
+  font: 45px 'Balsamiq Sans', cursive;
+  text-align: center;
+  display: flex-block;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+  margin: 80px 100px;
+  font-weight: 100px;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  border-bottom: 3px solid white;
+}
+
+.topnav:hover {
+  border-bottom: 3px solid rgba(154, 205, 50, 255);
+  transition: 0.4s;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.topnav a:hover {
+  background-color: rgba(154, 205, 50, 255);
+  color: black;
+  transition: 0.4s;
+}
+
+.first_block {
+  height: 900px;  
+  background-image: url(../images/bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  filter: none;
+  display: flex;
+  justify-content: center;
+}
+
+.first_title {
+  font: 56px Playfait Display;
+  margin: 0px 100px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  font-family: Montserrat;
+}
+
+.first_title_1{
+  margin-top: 300px;
+}
+
+.inner {
+  color: rgb(39, 39, 39);
+  font: 17px Montserrat;
+  text-align: center;
+  display: flex-block;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+  border-bottom: 2px solid rgb(39, 39, 39);
+  border-top: 2px solid rgb(39, 39, 39);
+  margin: 80px 100px;
+  font-weight: 100px;
+}
+
+.video_1 {
+  color: rgb(39, 39, 39);
+  font: 23px 'Balsamiq Sans', cursive;
+  text-align: center;
+  display: flex-block;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+  margin: 80px 100px;
+  font-weight: 100px;
+}
+
+.video_player {
+  border: 5px solid yellowgreen;
+  border-radius: 20px;
+}
+
+.first_btn {
+  display: flex;
+  justify-content: center;
+  margin: 25px 150px;
+}
+
+.btn_want {
+  text-decoration: none;
+  padding: 17px;
+  color: white;
+  background: linear-gradient(rgb(41, 41, 41), rgb(43, 43, 43));
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 23px;
+  border-width: 0%;
+  flex-wrap: nowrap;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.btn_want:hover {
+  text-shadow: 1px 1px 4px white;
+  box-shadow: 1px 1px 6px black;
+  cursor: pointer;
+}
+
+.capabilities {
+  display: flex;
+  justify-content: space-around;
+  font-family: Helvetica;
+  margin: 0px 80px 200px 80px;
+}
+
+.capablock {
+  display: flex;
+  width: 235px;
+  height: 210px;
+  flex-wrap: wrap;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+
+.capablock_img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.capablock_text {
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.video_2 {
+  color: rgb(39, 39, 39);
+  font: 23px 'Balsamiq Sans', cursive;
+  text-align: center;
+  display: flex-block;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+  margin: 80px 100px 200px 100px;
+  font-weight: 100px;
+}
+
+.video_3 {
+  color: rgb(39, 39, 39);
+  font: 23px 'Balsamiq Sans', cursive;
+  text-align: center;
+  display: flex-block;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+  margin: 80px 100px;
+  font-weight: 100px;
+}
+
+.video_4 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 100px;
+}
+
+.capabilities_2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: Helvetica;
+  margin: 0px 80px 200px 80px;
+  align-content: baseline;
+}
+
+.capablock__2 {
+  display: flex;
+  width: 235px;
+  height: 210px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.capablock_text__2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  display: flexbox;
+}
+
+.products_big_block {
+  margin: 170px;
+}
+
+.products_row {
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+  align-content: baseline;
+  justify-content: space-around;
+  font-family: Roboto Mono;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.firstrow_product {
+  width: 400px;
+  height: 300px;
+}
+
+.firstrow_product_title {
+  font-weight: 400;
+  padding: 10px 0px 0px;
+  font-size: 24px;
+}
+
+.firstrow_product_paragraph {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 0px 0px;
+}
+
+
+
+.secondrow_product {
+  width: 400px;
+  height: 300px;
+}
+
+.secondrow_product_title {
+  font-weight: 400;
+  padding: 10px 0px 0px;
+  font-size: 24px;
+}
+
+.secondrow_product_paragraph {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 0px 0px;
+}
+
+
+
+.thirdrow_product {
+  width: 400px;
+  height: 300px;
+}
+
+.thirdrow_product_title {
+  font-weight: 400;
+  padding: 10px 0px 0px;
+  font-size: 24px;
+}
+
+.thirdrow_product_paragraph {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 0px 0px;
+}
+
+
+.fourthrow_product {
+  width: 400px;
+  height: 300px;
+}
+
+.fourthrow_product_title {
+  font-weight: 400;
+  padding: 10px 0px 0px;
+  font-size: 24px;
+}
+
+.fourthrow_product_paragraph {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 0px 0px;
+}
+
+.point {
+  padding: 15px;
+}
+
+.points_block {
+  font-size: 13px;
+  display: flexbox;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  padding: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#last_btn {
+  margin-bottom: 45px;
+}
+
+footer {
+  background-color: rgb(43, 43, 43);
+  color: white;
+  padding-top: 15px;
+}
+
+.footer_element {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_title {
+  padding-bottom: 19px;
+}
+
+.footer_subtitle {
+  padding-bottom: 5px;
+}
+
+.footer_point {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
